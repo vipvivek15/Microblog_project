@@ -16,3 +16,8 @@ For listing:
 java -jar your_jar.jar list -s starting_id -c count -sa
 
 Retrieves messages from /messages endpoint with the starting id, count. Also allows users to save an attachment. 
+
+For the post and list to work, the server needs to be running. 
+
+Run the server using:
+java -jar service_jar.jar 
